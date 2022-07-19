@@ -3,9 +3,13 @@ body {
   background-color: beige;
 }
 
+.mynavbar {
+  padding: 0rem;
+}
+
 .App {
   /* text-align: center; */
-  /* padding: 4rem; */
+  padding: 4rem;
 }
 
 .App-logo {

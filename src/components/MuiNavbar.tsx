@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
   AppBar,
   IconButton,
@@ -24,7 +25,7 @@ export const MuiNavbar = () => {
   }
 
   return (
-    <AppBar position='static'>
+    <AppBar position='absolute'>
       <Toolbar>
         <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
           <CatchingPokemon />
