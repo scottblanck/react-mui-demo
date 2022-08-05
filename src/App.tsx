@@ -19,6 +19,7 @@ import { MuiTextField } from './components/MuiTextField'
 import { MuiTypography } from './components/MuiTypography'
 import { ReactDatePicker } from './components/ReactDatePicker'
 import { ReactColorPicker } from './components/ReactColorPicker'
+import { MuiSkeleton } from './components/MuiSkeleton'
 
 const theme = createTheme({
   // Items here are structured like the mui docs "Default Theme" page.
@@ -48,6 +49,8 @@ function App() {
         <MuiList />
         <h4>Link</h4>
         <MuiLink />
+        <h4>Skeleton (refresh to view)</h4>
+        <MuiSkeleton />
         <h4>Accordian</h4>
         <MuiAccordian />
         <h4>Switch</h4>
